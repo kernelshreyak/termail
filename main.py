@@ -29,7 +29,7 @@ def exit_program():
 
 main = urwid.Padding(menu(u'Termail v1.0', choices), left=2, right=2)
 top = urwid.Overlay(main, urwid.SolidFill(u'\N{MEDIUM SHADE}'),
-    align='center', width=('relative', 60),
-    valign='middle', height=('relative', 60),
+    align='center', width=('relative', 180),
+    valign='middle', height=('relative', 90),
     min_width=20, min_height=9)
 urwid.MainLoop(top, palette=[('reversed', 'standout', '')]).run()
