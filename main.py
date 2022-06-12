@@ -24,7 +24,7 @@ def item_chosen(button, choice):
         for email in emails:
             email_disp.append(urwid.AttrMap(urwid.Button(email), None, focus_map='reversed'))
         
-        back_button = urwid.Button('Exit')
+        back_button = urwid.Button('Back to Main Menu')
         urwid.connect_signal(back_button, 'click', back_to_mainmenu )
         email_disp.append(urwid.AttrMap(back_button, None, focus_map='reversed'))  
 
