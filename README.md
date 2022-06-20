@@ -10,3 +10,15 @@ servers and non-GUI systems
 1. Read email from your Yopmail inbox directly inside the terminal
 2. Send email via Yopmail or custom SMTP connection
 
+## Installation 
+1. Install dependencies (make sure you have Python 3.x installed on your system)
+```
+	pip install -r requirements.txt
+```
+
+2. Run the program
+
+```
+	python main.py
+```
+

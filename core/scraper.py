@@ -68,6 +68,3 @@ def read_inbox(email):
 
 def read_single_email(email,index):
     return asyncio.get_event_loop().run_until_complete(scrape_single_email(email,index))
-
-# print(read_inbox("shreyak"))
-# print(read_single_email("shreyak",2))

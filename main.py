@@ -17,8 +17,7 @@ def item_chosen(button, choice):
         return
 
     elif choice == choices[0]:  ## view inbox
-        emails = read_inbox("termail_001")
-
+        emails = read_inbox("termail_001")  # TODO: make this email address configurable by user
         inboxheader = urwid.Text([u'Inbox'])
         email_disp = [inboxheader]
         for email in emails:
