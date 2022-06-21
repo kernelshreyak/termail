@@ -13,12 +13,12 @@ servers and non-GUI systems
 ## Installation 
 1. Install dependencies (make sure you have Python 3.x installed on your system)
 ```
-	pip install -r requirements.txt
+pip install -r requirements.txt
 ```
 
 2. Run the program
 
 ```
-	python main.py
+python main.py
 ```
 
